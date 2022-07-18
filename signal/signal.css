@@ -1,0 +1,305 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+.container{
+	margin: 0 87.6px;
+}
+header{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	background-color: #fff;
+	z-index: 2;
+}
+.header-wrapper{
+	display: flex;
+	justify-content: space-between;
+	padding: 16px 0;
+}
+.logo img{
+	width: 150px;
+	height: 50px;
+}
+.header-wrapper .nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.header-wrapper .nav ul{
+	display: flex;
+	/*justify-content: center;
+	align-items: center;*/
+	list-style-type: none;
+}
+.header-wrapper a{
+	text-decoration: none;
+	color: #000;
+}
+.header-wrapper ul li{
+	padding: 8px 12px;
+	font-size: 16px;
+}
+a.language span {
+  padding: 0 8px;
+}
+.header-wrapper i{
+	font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*banner-1*/
+.banner{
+	height: 780px;
+	background-color: #9DBBF8;
+	
+}
+.banner-wrapper{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.speakfreely{
+	width: 550px;
+	margin-top: 60px;
+	position: relative;
+	top: 200px;
+}
+.speakfreely h1{
+	font-size: 62px;
+}
+
+.speakfreely p{
+	padding-top: 35px;
+	line-height: 25px;
+	font-size: 21px;
+}
+.speakfreely button{
+	margin-top: 35px;
+    background-color: #fff;
+    color: #2C6BED;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+}
+.banner img {
+    height: 800px;
+    width: 800px;
+    transform: rotate(10deg);
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+.columns{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+
+/*section-2*/
+
+.comments-wrapper{
+	background-color: #ECECEC;
+	padding: 144px 24px;
+}
+.comment-column{
+	width: 50%;
+	display: flex;
+}
+.row {
+	display: flex;
+
+}
+.row img{
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	margin: 17px;
+}
+.column-1 , .column-2{
+	padding: 10px;
+}
+.comment{
+	padding: 17px;
+	display: flex;
+	flex-direction: column;
+}
+
+.comment span{
+	padding-top: 15px;
+}
+
+.row{
+	margin-top: 50px ;
+}
+.whyuse .heading{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	padding: 48px 24px;
+}
+.whyuse .heading h1{
+	font-size: 40px;
+	line-height: 44px;
+	padding-bottom: 10px;
+}
+.whyuse .heading p{
+	font-size: 20px;
+}
+.whyuse .content-row{
+	display: flex;
+	justify-content: space-between;
+		padding: 48px 24px;
+
+}
+.whyuse .content-img img{
+	width: 698px;
+	height: 698px;
+	border-radius: 10px;
+}
+.whyuse .content-1{
+	width: 32%;
+}
+.whyuse .content-1 p{
+	font-size: 20px;
+	line-height: 28px;
+}
+.whyuse .content-1 h1{
+	font-size: 40px;
+	padding-bottom: 30px ;
+}
+.four-box{
+	background-color: #ececec;
+	padding: 48px 24px;
+}
+.twobox{
+	display: flex;
+	justify-content: space-between;
+}
+.box .box-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+}
+.box .box-content h1{
+	padding-bottom: 10px;
+}
+.box{
+	border-radius:15px;
+	margin-top: 30px ;
+	padding: 30px;
+	background-color: #fff;
+	width: 49%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	box-shadow: 0px 4px 12px rgb(0 0 0 / 12%), 0px 0px 2px rgb(0 0 0 / 8%);
+}
+.box img{
+	width: 370px;
+	height: 372px;
+}
+
+.content-wrapper{
+	display: flex;
+	padding: 40px 24px;
+}
+.content-wrapper img{
+	width: 680px;
+	border-radius: 10px;
+}
+.content-no-ad{
+	width: 33%;
+	margin-right: 40px;
+}
+.content-no-ad h1{
+	font-size: 40px;
+	padding-bottom: 32px;
+
+}
+.content-no-ad p{
+	font-size: 20px;
+	line-height: 28px;
+	
+}
+.content2{
+	flex-direction: row-reverse;
+
+}
+.ad2{
+	margin-left: 40px;
+}
+.content-no-ad button{
+		margin-top: 30px;
+		background-color: #fff;
+    color: #2C6BED;
+    font-size: 20px;
+    line-height: 28px;
+    padding: 10px 20px;
+    border: solid #2C6BED;
+    border-radius: 8px;
+
+}
+
+footer{
+		background-color: #3C3744;
+		padding: 48px 28px 96px 28px;
+}
+.footer-cols{
+	display: flex;
+	justify-content: space-between;
+	background-color: #3C3744;
+	color: #E9E9E9;
+}
+.fcolumns{
+
+}
+.copyright{
+	width: 40%;
+}
+.fcolumns ul{
+	list-style-type: none;
+	margin-top: 12px;
+}
+.fcolumns li a{
+	text-decoration: none;
+	color:	#E9E9E9;
+}
+
+
+
+
+
+@media
